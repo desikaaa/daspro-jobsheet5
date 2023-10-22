@@ -18,18 +18,18 @@ public class PemilihanPercobaan307 {
         switch (operator) {
             case '+':
             hasil = angka1 + angka2;
-            System.out.println(angka1 + "+" + "=" + hasil);
+            System.out.println(angka1 + "+" + angka2 + "=" + hasil);
                 break;
             case '-':
-                hasil = angka1 + angka2;
-                System.out.println(angka1 + "-" + angka2 + "-" + hasil);
+                hasil = angka1 - angka2;
+                System.out.println(angka1 + "-" + angka2 + "=" + hasil);
                 break;
             case '*':
-                hasil = angka1 - angka2;
+                hasil = angka1 * angka2;
                 System.out.println(angka1 + "*" + angka2 + "=" + hasil);
                 break; 
             case '/':
-               hasil = angka1 - angka2;
+               hasil = angka1 / angka2;
                System.out.println(angka1 + "/" + angka2 + "=" + hasil);
                 break;
         }
